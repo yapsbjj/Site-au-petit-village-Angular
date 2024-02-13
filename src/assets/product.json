@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Figurine Astérix",
+        "price": 19.99,
+        "image": "asterix.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Figurine Obélix",
+        "price": 19.99,
+        "image": "obelix.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Figurine Idéfix",
+        "price": 9.99,
+        "image": "idefix.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Figurine Jules César",
+        "price": 24.99,
+        "image": "jules-cesar.jpg"
+    }
+]

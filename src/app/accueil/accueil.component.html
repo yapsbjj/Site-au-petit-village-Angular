@@ -1,0 +1,12 @@
+<div>
+    <button (click)="sortByPrice('asc')">Trier par Prix Croissant</button>
+    <button (click)="sortByPrice('desc')">Trier par Prix Décroissant</button>
+</div>
+
+<div *ngIf="sortedProducts.length > 0">
+    <div *ngFor="let product of sortedProducts">
+        <img [src]="'assets/' + product.image" [alt]="product.name" />
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.price | currency }}</p>
+    </div>
+</div>
