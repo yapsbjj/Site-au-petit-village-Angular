@@ -3,13 +3,13 @@
         "id": 1,
         "name": "Figurine Astérix",
         "price": 19.99,
-        "image": "asterix.jpg"
+        "image": "../../assets/images/figurineAsterix.jpg"
     },
     {
         "id": 2,
         "name": "Figurine Obélix",
         "price": 19.99,
-        "image": "obelix.jpg"
+        "image": ""
     },
     {
         "id": 3,

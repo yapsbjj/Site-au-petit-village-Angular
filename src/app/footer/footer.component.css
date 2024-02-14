@@ -78,12 +78,12 @@ main {
         padding-left: 7px;
     }
 
-    .footer-col .social-links a:hover {
+    .footer-col .social-links a img:hover {
         color: #151515;
         background-color: #FFF;
     }
 
-    .footer-col .social-links a {
+    .footer-col .social-links a img {
         color: #151515;
         background-color: rgba(255, 255, 255, 0.2);
         display: inline-block;
