@@ -1,0 +1,12 @@
+body {
+    background-image: url(../../assets/images/backgroundFigurine.jpeg);
+    width: 100%;
+    height: 180px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+}

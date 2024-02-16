@@ -1,0 +1,16 @@
+main {
+    background-image: url(../../assets/images/BackgroundGranite.jpg);
+}
+
+.about {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogue img {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+}

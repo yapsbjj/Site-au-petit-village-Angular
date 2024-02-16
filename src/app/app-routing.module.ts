@@ -6,10 +6,10 @@ import { AProposComponent } from './a-propos/a-propos.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: AccueilComponent },
-  { path: 'produit/:id', component: ProduitComponent },
-  { path: 'a-propos', component: AProposComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: '/', component: AccueilComponent },
+  { path: '/produit/:id', component: ProduitComponent },
+  { path: '/about', component: AProposComponent },
+  { path: '/contact', component: ContactComponent },
   { path: '**', redirectTo: '' }
 ];
 

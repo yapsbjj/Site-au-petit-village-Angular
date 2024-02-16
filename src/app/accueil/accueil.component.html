@@ -1,12 +1,23 @@
-<div>
-    <button (click)="sortByPrice('asc')">Trier par Prix Croissant</button>
-    <button (click)="sortByPrice('desc')">Trier par Prix Décroissant</button>
-</div>
+<body>
+    <main>
+        <div class="about">
+            <h1>Soyez les bienvenues par Toutatis !</h1>
+            <p>“Au petit village” est une entreprise qui confectionne des figurines inspirées de la bande
+                dessinée Astérix et Obélix. </p>
+        </div>
 
-<div *ngIf="sortedProducts.length > 0">
-    <div *ngFor="let product of sortedProducts">
-        <img [src]="'assets/' + product.image" [alt]="product.name" />
-        <h3>{{ product.name }}</h3>
-        <p>{{ product.price | currency }}</p>
-    </div>
-</div>
+        <div class="catalogue">
+            <div class="button">
+                <button (click)="sortByPrice('asc')">Trier par Prix Croissant</button>
+                <button (click)="sortByPrice('desc')">Trier par Prix Décroissant</button>
+            </div>
+            <div *ngIf="sortedProducts.length > 0">
+                <div *ngFor="let product of sortedProducts">
+                    <img [src]="'assets/' + product.image" [alt]="product.name" />
+                    <h3>{{ product.name }}</h3>
+                    <p>{{ product.price | currency }}</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>

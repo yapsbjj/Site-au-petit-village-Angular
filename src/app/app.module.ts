@@ -19,7 +19,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 const appRoutes: Routes = [
   { path: '', component: AccueilComponent },
   { path: 'produit/:id', component: ProduitComponent },
-  { path: 'a-propos', component: AProposComponent },
+  { path: 'about', component: AProposComponent },
   { path: 'contact', component: ContactComponent },
 ];
 

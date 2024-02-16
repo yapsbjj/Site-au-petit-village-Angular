@@ -9,18 +9,18 @@
         "id": 2,
         "name": "Figurine Obélix",
         "price": 19.99,
-        "image": ""
+        "image": "../../assets/images/figurineObelix.jpg"
     },
     {
         "id": 3,
         "name": "Figurine Idéfix",
         "price": 9.99,
-        "image": "idefix.jpg"
+        "image": "../assets/images/figurineIdefix.jpg"
     },
     {
         "id": 4,
         "name": "Figurine Jules César",
         "price": 24.99,
-        "image": "jules-cesar.jpg"
+        "image": "../../assets/images/figurineJulesCesar.jpg"
     }
 ]

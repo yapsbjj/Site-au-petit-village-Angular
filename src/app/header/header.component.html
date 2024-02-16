@@ -1,6 +1,9 @@
 <body>
     <header>
-        <div class="logo">Au petit village</div>
+        <div class="logo_img">
+            <a routerLink="/" routerLinkActive="active" class="active"><img
+                    src="../../assets/images/Logo_au petit village.jpg" class="logo" alt="Logo-au-petit-village" /></a>
+        </div>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
@@ -9,10 +12,9 @@
         <div class="nav-bar">
             <nav>
                 <ul>
-                    <li><a href="" class="active">Accueil</a></li>
-                    <li><a href="" class="link">A propos</a></li>
-                    <li><a href="" class="link">Catalogue</a></li>
-                    <li><a href="" class="link">Contact</a></li>
+                    <li><a routerLink="/about" routerLinkActive="active" class="link">A propos</a></li>
+                    <li><a routerLink="/product" routerLinkActive="active" class="link">Catalogue</a></li>
+                    <li><a routerLink="/contact" routerLinkActive="active" class="link">Contact</a></li>
                 </ul>
 
             </nav>
