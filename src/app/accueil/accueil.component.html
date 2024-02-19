@@ -16,6 +16,7 @@
                     <img [src]="'assets/' + product.image" [alt]="product.name" />
                     <h3>{{ product.name }}</h3>
                     <p>{{ product.price | currency }}</p>
+                    <button (click)="(product.id)">Voir le produit</button>
                 </div>
             </div>
         </div>
